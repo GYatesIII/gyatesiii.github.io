@@ -20,7 +20,7 @@ body {
   text-align: center;
   font-family: 'Source Code Pro', monospace;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 16px;
   margin: 0;
 }
 
@@ -36,10 +36,21 @@ h1 {
 }
 
 header {
-  margin: 1em 0;
+  margin: 3em 0 4em;
 
   p {
     margin: 0.5em 0;
+  }
+}
+
+.profile-img {
+  width: 200px;
+  margin: 0 auto;
+
+  img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
   }
 }
 
@@ -59,23 +70,23 @@ nav {
       margin: 0 7px;
 
       &.crowdskout {
-        background-image: url('/i/crowdskout-logo.png');
-        @include image-2x('/i/crowdskout-logo@2x.png', 30px, 30px);
+        background-image: url('../i/crowdskout-logo.png');
+        @include image-2x('../i/crowdskout-logo@2x.png', 30px, 30px);
       }
 
       &.twitter {
-        background-image: url('/i/twitter-logo.png');
-        @include image-2x('/i/twitter-logo@2x.png', 30px, 30px);
+        background-image: url('../i/twitter-logo.png');
+        @include image-2x('../i/twitter-logo@2x.png', 30px, 30px);
       }
 
       &.github {
-        background-image: url('/i/github-logo.png');
-        @include image-2x('/i/github-logo@2x.png', 30px, 30px);
+        background-image: url('../i/github-logo.png');
+        @include image-2x('../i/github-logo@2x.png', 30px, 30px);
       }
 
       &.linkedin {
-        background-image: url('/i/linkedin-logo.png');
-        @include image-2x('/i/linkedin-logo@2x.png', 30px, 30px);
+        background-image: url('../i/linkedin-logo.png');
+        @include image-2x('../i/linkedin-logo@2x.png', 30px, 30px);
       }
     }
   }
