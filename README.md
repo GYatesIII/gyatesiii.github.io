@@ -1,2 +1,2 @@
 # Personal Website #
-This is my simple personal site. Nothing special.
+Quick bio and some links. All anyone needs to know.
