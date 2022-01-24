@@ -88,6 +88,11 @@ nav {
         background-image: url('../i/linkedin-logo.png');
         @include image-2x('../i/linkedin-logo@2x.png', 30px, 30px);
       }
+
+      &.instagram {
+        background-image: url('../i/instagram-logo.png');
+        @include image-2x('../i/instagram-logo@2x.png', 30px, 30px);
+      }
     }
   }
 }
